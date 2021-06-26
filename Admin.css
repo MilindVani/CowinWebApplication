@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+/* Admin.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.navbar{
+    
+    background-color: rgba(4, 5, 5, 0.603);
+    opacity: 0.8;
+    height: 45px;
+    width: 100%;
+}
+
+
+
+.inside{
+
+    display: flex;
+    height: 100vh;
+    width: 100%;
+   /* background-image: linear-gradient(purple,blue);*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.adminlog{
+
+    right: 15px;
+    bottom: 20px;
+    height: 25rem;
+    width: 70%;
+    display: flex;
+    position: relative;
+    float: none;
+    justify-content: center;
+}
+
+.inadminlog{
+
+    justify-content: center;
+    padding: 10px 10px;
+    display: flex;
+    position: relative;
+}
+.input{
+
+    border-radius: 20px;
+    width: 35rem;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(84, 87, 92, 0.685), rgba(3, 1, 15, 0.753));
+}
+
+.text{
+
+    align-items: center;
+    font-size: 25px;
+    color:chocolate;
+    margin: 40px 170px;
+}
+
+.aadhar{
+
+    padding: 10px 10px;
+    display: grid;
+    height: 4rem;
+}
+
+.aadhar label{
+
+    font-size: 25px;
+}
+.aadhar input{
+
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.login{
+
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin: 5px 5px;
+    align-content: center;
+    /* padding: 1rem 22px 5px 14rem; */
+    margin-top: 25px;
+}
+
+#submitbutton{
+
+    position: relative;
+    height: 35px;
+    width: 25%;
+}
+
+#submitbutton button{
+
+    outline-color: none;
+    font-size: 21px;
+    padding: 4px 12px;
+    border-radius: 25px;
+}
+
+#submitbutton button:hover{
+
+    color: white;
+    background-color: rgba(20, 20, 214, 0.623);
+    transition: 1s;
+}
+
+.logoutbtn{
+	display : none;
+	float   : right;
+	color   : black
+	
+}
+

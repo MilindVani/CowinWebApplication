@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+/*indexCowin.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('corona vaccine.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    padding-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: beige;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+/*.section1 {
+    display: inline;
+}*/
+
+.subtitle {
+    color: rgb(229, 196, 153);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Symptoms,
+#Precaution,
+#About,
+.info {
+    background-color: rgb(230, 230, 213);
+}
+
+.team,
+.matter,
+.question,
+.CoronaSymptoms {
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.question,
+.footer,
+.team,
+.CoronaSymptoms {
+    background-color: rgb(179, 174, 174);
+    
+}
+
+.footer {
+    padding-left: 15px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 13rem;
+}
+
+.submain,
+.info,
+.footer {
+    padding-left: 250px;
+}
+
+.slidebar {
+    background-color: rgb(219, 226, 224);
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #051016;
+    display: block;
+    transition: 0.6s ease;
+    border: 2px solid rgb(29, 21, 21);
+    border-radius: 10px;
+}
+
+.sidenav a:hover {
+    color: black;
+    background-color: rgb(219, 180, 128);
+    border: 2px solid #fff;
+}
+
+.member {
+    padding-left: 50px;
+    font-style: Verdana;
+    font-size: large;
+}
+
+
+/*login.html*/
+

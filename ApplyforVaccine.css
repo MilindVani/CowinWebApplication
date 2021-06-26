@@ -1,0 +1,91 @@
+/*ApplyforVaccine.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    text-align: center;
+    color: blueviolet;
+}
+
+.form{
+
+    height: 50%;
+    width: 100%;
+    top: 5rem;
+    /* background-color: rgb(197, 197, 101); */
+    position: absolute;
+    display: flex;
+    /* padding: 5px 5px; */
+    /* margin: 2px 2px; */
+}
+
+.left{
+
+    justify-content: center;
+    position: relative;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    background-image: linear-gradient(to right, rgba(84, 87, 92, 0.685), rgba(3, 1, 15, 0.753));
+    width: 30%;
+    left: 6rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.right{
+
+    justify-content: center;
+    position: relative;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    background-image: linear-gradient(to right, rgba(84, 87, 92, 0.685), rgba(3, 1, 15, 0.753));
+    width: 30%;
+    left: 22rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.block1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 5px;
+    position: relative;
+    text-align: center;
+    margin: 20px 2px;
+}
+.block1 label{
+
+    font-size: 30px;
+}
+.block2{
+
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px 2px;
+    padding: 15px 3px;
+}
+.block2 label , input{
+    font-size: 20px;
+}
+.block3 {
+
+    position: relative;
+    padding: 15px 3px;
+    margin: 20px 2px;
+}
+.block3 button{
+
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+
+
